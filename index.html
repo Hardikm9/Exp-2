@@ -48,8 +48,7 @@
     let balance = 0;
 
     function updateBalance() {
-      document.getElementById("balance").innerText = ₹ ${balance.toFixed(2)};
-    }
+      document.getElementById("balance").innerText = `₹ ${balance.toFixed(2)}`;    }
 
     function deposit() {
       const amountInput = document.getElementById("amount");
